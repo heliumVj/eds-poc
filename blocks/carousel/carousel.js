@@ -44,7 +44,7 @@ export default function decorate(block) {
   // current slide counter
   let curSlide = 0;
   // maximum number of slides
-  let maxSlide = slides.length - 1;
+  const maxSlide = slides.length - 1;
 
   // add event listener and navigation functionality
   nextSlide.addEventListener('click', () => {
@@ -52,6 +52,7 @@ export default function decorate(block) {
     if (curSlide === maxSlide) {
       curSlide = 0;
     } else {
+      // eslint-disable-next-line no-plusplus
       curSlide++;
     }
 
@@ -70,6 +71,7 @@ export default function decorate(block) {
     if (curSlide === 0) {
       curSlide = maxSlide;
     } else {
+      // eslint-disable-next-line no-plusplus
       curSlide--;
     }
 

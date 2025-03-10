@@ -1,5 +1,5 @@
 {
-  "project": "AEM Lab",
+  "project": "eds-poc",
   "plugins": [
     {
       "id": "library",

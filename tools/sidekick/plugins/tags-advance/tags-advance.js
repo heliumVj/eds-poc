@@ -5,7 +5,7 @@ import { PLUGIN_EVENTS } from 'https://www.hlx.live/tools/sidekick/library/event
 import UTILS from './utils.js';
 
 const CONST = {
-  PLUGIN_TITLE: 'Tags advance',
+  PLUGIN_TITLE: 'tags_advance',
   NO_TAG_MSG: 'No tags selected',
   NO_DATA: 'Tag sheet is not configured',
   COPIED_MSG: 'Copied Tags',
